@@ -1,5 +1,5 @@
 /*
-     Race Condition: Race conditions occurs where two or more threads access shared data and modify it simultaneously, resulting in unpredictable behavior.
+     Race Condition: Race conditions occur when two or more threads access shared data and modify it simultaneously, resulting in unpredictable behavior.
  
     Using NSLock(), we can avoid the race condition
 */
