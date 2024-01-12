@@ -23,7 +23,13 @@ struct Demo {
             print("Operation - 3")
         }
         
+       // Notify when all task completed
+        blockOperation.completionBlock = {
+            print("All task completed")
+        }
+        
         blockOperation.start()
+        
     }
 }
 
